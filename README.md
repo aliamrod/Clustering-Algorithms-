@@ -34,13 +34,21 @@ Types of Clustering Algorithms:
  	+ K-Means: Clusters are represented by centroids, and the algorithm minimizes the within-cluster sum of squares.
 	+ K-Medoids: Similar to K-Means but uses actual data points (medoids) as cluster centers, making it more robust to outliers. "Medoids" instead of "Centroids" representating clustering; medoid = center point within cluster minimizing sum of distances to other points. Unlike K-Means, which is sensitive to outliers due to centroids being influenced by the mean of the data, K-Medoids assigns each data point to the nearest medoid _mi_, which is an actual data point in the dataset. This makes K-Medoids more robust to outliers, as medoids minimize the sum of dissimilarities (e.g., distances) between all data points in the cluster and the medoid, rather than relying on the arithmetic mean.
 
+**Refer to K-Means and K-Medoids tutorial in centroid_algorithms.py. 
+
 * Density-Based Algorithms
-	+ Item 2a
-	+ Item 2b
+	+ DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Identifies clusters based on the density of points in the data, works well for non-spherical clusters and handles noise effectively.
+	+ OPTICS (Ordering Points to Identify the Clustering Structure): Similar to DBSCAN but can identify clusters with varying densities. 
 
 * Hierarchical Clustering
+	+ Agglomeramative Clustering: Starts with each data point as its own cluster and merges clusters iteratively.
+  	+ Divisive Clustering: Starts with one cluster and splits it iteratively (often visualized using dendograms). 
 * Distribution-Based Algorithms
+	+ Gaussian Mixture Models (GMMs): Assumes that data is generated from a mixture of Gaussian distributions and uses probabilistic assignments for clustering.
+	  
 * Grid-Based Algorithms
+	+ CLIQUE (Clustering in Quest): Partitions the data space into a grid structure and clusters the dense regions.
+	+ STING (Statistical Information Grid): Divides the space into a hierarchical grid for clustering.
 * Spectral Clustering
 * Fuzzy Clustering
 * Model-Based Clustering
@@ -49,6 +57,22 @@ Types of Clustering Algorithms:
     + Item 2a
     + Item 2b
 
+
+
+5. Grid-Based Algorithms
+CLIQUE (Clustering in Quest): Partitions the data space into a grid structure and clusters the dense regions.
+STING (Statistical Information Grid): Divides the data space into a hierarchical grid for clustering.
+6. Spectral Clustering
+Uses the eigenvalues of the similarity matrix of the data to perform dimensionality reduction before clustering, often applied to non-linear cluster structures.
+7. Fuzzy Clustering
+Fuzzy C-Means: Allows data points to belong to multiple clusters with varying degrees of membership.
+8. Model-Based Clustering
+Algorithms like Expectation-Maximization (EM) focus on fitting data into statistical models, often Gaussian distributions.
+9. Constraint-Based Clustering
+Uses additional constraints or prior knowledge, such as must-link or cannot-link constraints, to guide the clustering process.
+10. Deep Learning-Based Clustering
+Autoencoder-Based Clustering: Uses neural networks to learn lower-dimensional embeddings and clusters the data in this space.
+Self-Organizing Maps (SOMs): A type of neural network trained to produce a low-dimensional representation of input data.
 ---
 
 C. Evaluate model performance using relevant metrics (e.g., accuracy, precision, recall, F1-score) and fine-tune models to achieve efficient results.
