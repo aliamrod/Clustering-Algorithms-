@@ -10,12 +10,44 @@ The flowchart illustrates the steps for selecting and building machine learning 
 
 ## B. Selecting and building appropriate ML models (e.g., regression, classification, clustering) based on the problem and data characteristics).
 
-### a. Regression
+### a. Regression 
+
+ Regression = 
+
+ 
  
 ### b. Classification
 
+Classification = 
+
+
+
 ### c. Clustering
 
+Clustering = Clustering is a type of unsupervised ML technique used to group similar data points together based on their inherent characteristics. The goal is to organize data into clusters such that: (1) Intra-cluster similarity (data points within the same cluster are as similar as possible) and (2) Inter-cluster dissimilarity (data points in different clusters are as distinct as possible). Clustering is widely used when labels or categories for the data are not pre-defined. It helps in identifying patterns, structures, or groupings in data without prior knowledge. 
+
+Key features of clustering include (1) unsupervised learning. No labeled data is required; the algorithm discovers the groupings. (2) Similarity/dissimilarity metrics. Clustering relies on measures like Euclidean distance, cosine similarity, or other metrics to assess how data points are grouped. (3) Applications. Clustering is used in various domains, including customer segmentation, image segmentation, anomaly detection, and document categorization. *For example, suppose you have a dataset with customer purchase histories. A clustering algorithm can group customers into clusters based on their buying behaviors, such as Cluster_1: frequent small purchases, Cluster_2: Rare large purchases, Cluster_3: Moderate and consistent purchases. These clusters can then be used to tailor marketing strategies or improve customer service.
+
+
+Types of Clustering Algorithms:
+* Centroid-Based Algorithms
+ 	+ K-Means: Clusters are represented by centroids, and the algorithm minimizes the within-cluster sum of squares.
+	+ K-Medoids: Similar to K-Means but uses actual data points (medoids) as cluster centers, making it more robust to outliers. "Medoids" instead of "Centroids" representating clustering; medoid = center point within cluster minimizing sum of distances to other points. Unlike K-Means, which is sensitive to outliers due to centroids being influenced by the mean of the data, K-Medoids assigns each data point to the nearest medoid _mi_, which is an actual data point in the dataset. This makes K-Medoids more robust to outliers, as medoids minimize the sum of dissimilarities (e.g., distances) between all data points in the cluster and the medoid, rather than relying on the arithmetic mean.
+
+* Density-Based Algorithms
+	+ Item 2a
+	+ Item 2b
+
+* Hierarchical Clustering
+* Distribution-Based Algorithms
+* Grid-Based Algorithms
+* Spectral Clustering
+* Fuzzy Clustering
+* Model-Based Clustering
+* Constraint-Based Clustering
+* Deep Learning-Based Clustering
+    + Item 2a
+    + Item 2b
 
 ---
 
