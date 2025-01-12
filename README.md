@@ -2,7 +2,8 @@
 
 ## A. Introduction **
 
-![Screenshot 2025-01-12 at 10 58 25 AM](https://github.com/user-attachments/assets/03ce0016-a5df-4599-b719-2aaf7c298d7d)
+![Screenshot 2025-01-12 at 10 59 11 AM](https://github.com/user-attachments/assets/e7d6262a-3c7b-404f-856a-22552a25cce3)
+
 
 
 The flowchart illustrates the steps for selecting and building machine learning models. (1) Understand the problem type. Determine whether the task is regression, classification, or clustering, (2) Analyze data characteristics. Examine the data size, feature types, relationships, and distribution, (3) Select an appropriate model. Choose a model suited to the problem type and data properties, (4) Preprocess and engineer features. Perform tasks like scaling, encoding, and handle missing values, (5) Build and train the model. Split the data, train the model, and optimize hyperparameters, (6) Evaluate and interpret resuls. Use metrics to assess performance and interpret outcomes.
@@ -33,7 +34,10 @@ Key features of clustering include (1) unsupervised learning. No labeled data is
 Types of Clustering Algorithms:
 * Centroid-Based Algorithms
  	+ K-Means: Clusters are represented by centroids, and the algorithm minimizes the within-cluster sum of squares.
+    		+ Pros: (1) Simplicity. Easy to understand and implement, (2) Efficiency. Scales well to large datasets; computationally efficient for spherical, well-separated clusters, (3) Fast convergence. Works quickly for datasets with distinct clusters. Cons: (1) Sensitivity to initialization. The outcome depends heavily on the initial centroids, (2) Predefined 'K' value. Requires the number of clusters (K) to be defined upfront, (3) Shape limitations. Struggles with non-spherical or overlapping clusters, (4) Outlier sensitivity. Outliers can skew the centroids significantly.
 	+ K-Medoids: Similar to K-Means but uses actual data points (medoids) as cluster centers, making it more robust to outliers. "Medoids" instead of "Centroids" representating clustering; medoid = center point within cluster minimizing sum of distances to other points. Unlike K-Means, which is sensitive to outliers due to centroids being influenced by the mean of the data, K-Medoids assigns each data point to the nearest medoid _mi_, which is an actual data point in the dataset. This makes K-Medoids more robust to outliers, as medoids minimize the sum of dissimilarities (e.g., distances) between all data points in the cluster and the medoid, rather than relying on the arithmetic mean.
+
+
 
 **Refer to K-Means and K-Medoids tutorial in centroid_algorithms.py. 
 
