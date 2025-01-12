@@ -10,6 +10,12 @@ The flowchart illustrates the steps for selecting and building machine learning 
 
 ## B. Selecting and building appropriate ML models (e.g., regression, classification, clustering) based on the problem and data characteristics).
 
+### a. Regression
+ 
+### b. Classification
+
+### c. Clustering
+
 
 ---
 
