@@ -2,7 +2,8 @@
 
 ## A. Introduction **
 
-![Screenshot 2025-01-12 at 9 53 05 AM](https://github.com/user-attachments/assets/d92d12fa-c6f0-4918-8c3d-9b254e5a5850)
+![Screenshot 2025-01-12 at 10 58 25 AM](https://github.com/user-attachments/assets/03ce0016-a5df-4599-b719-2aaf7c298d7d)
+
 
 The flowchart illustrates the steps for selecting and building machine learning models. (1) Understand the problem type. Determine whether the task is regression, classification, or clustering, (2) Analyze data characteristics. Examine the data size, feature types, relationships, and distribution, (3) Select an appropriate model. Choose a model suited to the problem type and data properties, (4) Preprocess and engineer features. Perform tasks like scaling, encoding, and handle missing values, (5) Build and train the model. Split the data, train the model, and optimize hyperparameters, (6) Evaluate and interpret resuls. Use metrics to assess performance and interpret outcomes.
 
