@@ -24,7 +24,6 @@ E.
 	2	Regression, classification, clustering based on the problem and data characteristics
 	3	Accuracy, precision, recall, F1-score, and fine-tune models to achieve efficient results
 	4	Interpret model results
-Clustering algorithms in Machine Learning are unsupervised learning techniques that group data points based on similarities. They are used to find patterns and similarities in unlabeled data, and are especially useful when working with data that is unknown. Machine learning datasets can have millions of examples, but not all clustering algorithms scale efficiently. Many clustering algorithms compute the similarity between all pairs of examples, which means their runtime increases as the square of the number of examples _n_, denoted as O(n^2) in complexity notation. O(n^2) algorithms are not practical for datasets with millions of examples. The k-means algorithm has a complexity of O(n), meaning that the algorithm scales linearly with _n_. 
 
 Some examples of clustering algorithms include:
 - K-means clustering: a centroid model that represents each cluster with a single mean vector.
