@@ -66,9 +66,7 @@ Types of Clustering Algorithms:
 * Model-Based Clustering
 * Constraint-Based Clustering
 * Deep Learning-Based Clustering
-    + Item 2a
-    + Item 2b
-
+  
 
 
 5. Grid-Based Algorithms
@@ -91,16 +89,7 @@ Self-Organizing Maps (SOMs): A type of neural network trained to produce a low-d
 D. Interpret model results, identify key drivers and insights. 
 
 
-E. 
-
-
-	1	descriptive statistics, hypothesis testing) to understand data distributions, relationships, and draw meaningful conclusions
-	2	Regression, classification, clustering based on the problem and data characteristics
-	3	Accuracy, precision, recall, F1-score, and fine-tune models to achieve efficient results
-	4	Interpret model results
-
-Some examples of clustering algorithms include:
-- K-means clustering: a centroid model that represents each cluster with a single mean vector.
+E. SUMMARY
 
 PROS
 Simplicity: Easy to understand and implement.
@@ -153,9 +142,3 @@ A. Descriptive Statistics & Hypothesis Testing: Apply statistical methods (e.g.,
 
 Descriptive Statistics: 
   Purpose = Summarize and understand the central tendency, dispersion (ie means the extent to which numerical data is likely to vary about an average value), and distribution of data. 
-
-Understanding the Data: 
-1. Data Overview
-2. Data Cleaning
-3. 
-B. 
