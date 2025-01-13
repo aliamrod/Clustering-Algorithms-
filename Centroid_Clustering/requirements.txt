@@ -1,0 +1,8 @@
+os 
+pathlib
+pandas
+matplotlib
+cmasher
+seaborn 
+scikit-learn 
+openpyxl
