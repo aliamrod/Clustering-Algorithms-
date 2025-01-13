@@ -14,15 +14,23 @@ The flowchart illustrates the steps for selecting and building machine learning 
 
 ### a. Regression 
 
- Regression = 
+ Regression = to predict continuous numerical values. Use cases include:
+ * Predicting house prices based on features like size, location, etc.
+ * Forecasting future sales, stock prices, or other continuous outcomes.
+ * Estimating the likelihood or probability of a continuous variable.
+ * Modeling relationships between independent variables and a continuous dependent variable.
+ * Example Algorithms: Linear Regression, Polynomial Regression, Ridge Regression, Lasso Regression, Support Vector Regression (SVR).
 
- 
  
 ### b. Classification
 
-Classification = 
-
-
+Classification = To predict categorical labels or classes. Use cases include:
+* Identifying whether an email is spam or not.
+* Predicting the type of disease (i.e. cancer diagnosis, binary classification: healthy vs. sick).
+* Predicting customer churn, loan approval, or product recommendation (multi-class classification).
+* Detecting sentiment polarity (positive, negative, neutral).
+* Example Algorithms: Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVM), Neural Networks, K-Nearest Neighbors (KNN), Naive Bayes.
+  
 
 ### c. Clustering
 
@@ -79,7 +87,6 @@ Autoencoder-Based Clustering: Uses neural networks to learn lower-dimensional em
 Self-Organizing Maps (SOMs): A type of neural network trained to produce a low-dimensional representation of input data.
 ---
 
-C. Evaluate model performance using relevant metrics (e.g., accuracy, precision, recall, F1-score) and fine-tune models to achieve efficient results.
 
 D. Interpret model results, identify key drivers and insights. 
 
