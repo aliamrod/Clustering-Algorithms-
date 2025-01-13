@@ -51,8 +51,6 @@ Types of Clustering Algorithms:
 
 
 
-**Refer to K-Means and K-Medoids tutorial in centroid_algorithms.py. 
-
 * Density-Based Algorithms
 	+ DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Identifies clusters based on the density of points in the data, works well for non-spherical clusters and handles noise effectively.
 	+ OPTICS (Ordering Points to Identify the Clustering Structure): Similar to DBSCAN but can identify clusters with varying densities;no fixed ϵ.
