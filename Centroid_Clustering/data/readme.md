@@ -1,1 +1,1 @@
-The data utilized for this project can be found [here]([url](https://archive.ics.uci.edu/dataset/502/online+retail+ii)). I have not included the data as part of the repository as it would inflate the repository's size and it is not good pracice to retain data in a Git repo. 
+The data utilized for this project can be found here: https://archive.ics.uci.edu/dataset/502/online+retail+ii. I have not included the data as part of the repository as it would inflate the repository's size and it is not good pracice to retain data in a Git repo. 
