@@ -11,11 +11,30 @@ marketing strategies and personalized customer experiences. We focus on three ke
 these behaviors into meaningful groups using features of RFM. 
 
 
+--- 
+
+Compared with traditional shopping in retail stores, online shopping has some unique characteristics: each customer's shopping process and activities can be tracked instantaneously and accurately, each customer's order is usually associted with a delivery address and a billing address, and each customer has an online store account with essential contact and payment information.
+
+In relation to customer-centric business intelligence, online retailers are usually concerned with the following common business concerns:
+* Which items/products’ web pages has a customer visited? How long has a customer stayed with each web page, and in which sequence has a customer visited a set of products’ web pages?
+* Who are the most/least valuable customers to the business? What are the distinct characteristics of them?
+* Who are the most/least loyal customers, and how are they characterized?
+* What are customers’ purchase behaviour patterns? Which products/items have customers purchased together often? In which sequence the products have been purchased?
+* Which types of customers are more likely to respond to a certain promotion mailing?
+* What are the sales patterns in terms of various perspectives such as products/items, regions and time (weekly, monthly, quarterly, yearly and seasonally), and so on?
+
+
+
+--- 
+
+Conclusion
+
+It has been shown that there are two steps in the whole data mining process that are crucial and the most time-consuming: data preparation and model interpretation and evaluation. Further research for the business inccludes: conducting association analysis to establish customer buying patterns with regard to which products have been purchased together frequently by which customers and which customer groups; enhancing the merchant's web site to enable a consumer's shopping activities to be captured and tracked instantaneously and accurately; and predicting each customer's lifecycle value to quantify the level of diversity of each customer.
 
 
 
 
-
+---
 
 References
 
