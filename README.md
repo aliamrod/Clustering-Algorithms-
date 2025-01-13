@@ -50,7 +50,7 @@ Types of Clustering Algorithms:
 
 * Density-Based Algorithms
 	+ DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Identifies clusters based on the density of points in the data, works well for non-spherical clusters and handles noise effectively.
-	+ OPTICS (Ordering Points to Identify the Clustering Structure): Similar to DBSCAN but can identify clusters with varying densities. 
+	+ OPTICS (Ordering Points to Identify the Clustering Structure): Similar to DBSCAN but can identify clusters with varying densities;no fixed ϵ.
 
 * Hierarchical Clustering
 	+ Agglomeramative Clustering: Starts with each data point as its own cluster and merges clusters iteratively.
@@ -129,13 +129,7 @@ Gaussian Mixture Models (GMM): Probabilistic clustering that models data as a mi
 Pros: Handles overlapping clusters; probabilistic output.
 Cons: Assumes Gaussian distribution; computationally intensive.
 
-Agglomerative Clustering: A variant of hierarchical clustering that merges clusters iteratively.
-Pros: Similar to hierarchical clustering; customizable linkage metrics.
-Cons: Similar scalability and sensitivity issues as hierarchical clustering.
 
-OPTICS (Ordering Points to Identify the Clustering Structure):
-Pros: Handles clusters of varying densities; no fixed ϵ.
-Cons: More complex than DBSCAN.
 
 
 A. Descriptive Statistics & Hypothesis Testing: Apply statistical methods (e.g., descriptive statistics, hypothesis testing) to understand data distributions, relationships, and draw meaningful conclusions.
